@@ -1,0 +1,20 @@
+.content {
+  grid-area: c;
+  background-color:#383838;
+  padding: 24px;
+}
+
+.container {
+  position: relative;
+}
+
+.container > .card{
+  position: absolute;
+  z-index: 1;
+}
+
+.card {
+  position: absolute;
+  top: 206px;
+  left: 40px;
+}

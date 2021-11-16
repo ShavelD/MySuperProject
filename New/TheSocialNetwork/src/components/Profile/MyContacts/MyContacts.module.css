@@ -1,0 +1,20 @@
+.black {
+width: 965px;
+height: 320px;
+background: #535353;
+border-radius: 0px 0px 16px 16px;
+padding: 100px 0px 8px 48px;
+}
+
+.firstname {
+    color: rgba(235, 245, 244, 0.904);
+    font-family: TT Norms Pro;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    font-size: 32px;
+}
+
+.description {
+
+}
