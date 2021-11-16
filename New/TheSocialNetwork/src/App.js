@@ -9,8 +9,8 @@ const App = () => {
     <div className="app-wrapper">
       <Header />
       <Navbar />
-      {/* <Profile /> */}
-      <Dialogs />
+      <Profile />
+      {/* <Dialogs /> */}
     </div>
   );
 };
