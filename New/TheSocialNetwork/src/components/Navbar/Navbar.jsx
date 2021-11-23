@@ -1,4 +1,5 @@
 import s from './Navbar.module.css';
+import { NavLink } from 'react-router-dom';
 import User from './User.png';
 import Chat from './Chat.png';
 import Newspaper from './Newspaper.png';
@@ -9,25 +10,25 @@ const Navbar = () => {
   return (
     <nav className={s.nav}>
       <div className={s.fons}>
-      <div className={`${s.item} ${s.active}`}>
+      <div className={s.item}>
       <img className={s.icon} src={User} />
-        <a href="/profile">Profile</a>
+        <NavLink to="/profile" activeClassName={s.activeLink}>Profile</NavLink>
       </div>
       <div className={s.item}>
       <img className={s.icon} src={Chat} /> 
-        <a href="/dialogs">Message</a>
+        <NavLink to="/dialogs" activeClassName={s.activeLink}>Message</NavLink>
       </div>
       <div className={s.item}>
       <img className={s.icon} src={Newspaper} />
-        <a href="/news">News</a>
+        <NavLink to="/news" activeClassName={s.activeLink}>News</NavLink>
       </div>
       <div className={s.item}>
       <img className={s.icon} src={Music} />
-        <a href="/music">Music</a>
+        <NavLink to="/music" activeClassName={s.activeLink}>Music</NavLink>
       </div>
       <div className={s.item}>
       <img className={s.icon} src={Setting} />
-        <a href="/setting">Settings</a>
+        <NavLink to="/setting" activeClassName={s.activeLink}>Settings</NavLink>
       </div>
       </div>
     </nav>
