@@ -11,23 +11,23 @@ const Navbar = () => {
       <div className={s.fons}>
       <div className={`${s.item} ${s.active}`}>
       <img className={s.icon} src={User} />
-        <a>Profile</a>
+        <a href="/profile">Profile</a>
       </div>
       <div className={s.item}>
       <img className={s.icon} src={Chat} /> 
-        <a>Message</a>
+        <a href="/dialogs">Message</a>
       </div>
       <div className={s.item}>
       <img className={s.icon} src={Newspaper} />
-        <a>News</a>
+        <a href="/news">News</a>
       </div>
       <div className={s.item}>
       <img className={s.icon} src={Music} />
-        <a>Music</a>
+        <a href="/music">Music</a>
       </div>
       <div className={s.item}>
       <img className={s.icon} src={Setting} />
-        <a>Settings</a>
+        <a href="/setting">Settings</a>
       </div>
       </div>
     </nav>
