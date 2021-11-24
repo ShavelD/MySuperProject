@@ -9,6 +9,7 @@ const ProfileInfo = () => {
         <img className={s.fonts} src={group} />
         <img className={s.card} src={Ava} />
       </div>
+      <div className={s.backgr}></div>
       </div>
   );
 };

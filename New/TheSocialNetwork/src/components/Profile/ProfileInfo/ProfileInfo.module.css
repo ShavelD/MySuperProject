@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+    max-height: 290px;
+  }
+  
+  .container > .card{
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .card {
+    position: absolute;
+    top: 206px;
+    left: 40px;
+  }
+  
+.backgr {
+    border-radius: 0px 0px 14px 14px;
+    max-width: 965px;
+    padding: 0px 0px 320px 0px;
+    background-color: #535353;
+}
